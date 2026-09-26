@@ -1,0 +1,7 @@
+
+-sampling noise
+-sampling interval
+-observation window length
+-STLSQ threshold (lambda)
+-candidate library mismatch
+-init conditions impact and trajectory coverage

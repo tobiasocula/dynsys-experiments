@@ -21,7 +21,6 @@ beta_, MSE = main(
     num_points=1000,
     system_func=duffing_osc,
     params={"alpha":alpha,"beta":beta,"delta":delta,"gamma":gamma,"omega":omega},
-    plot=False
 )
 print('beta:'); print(beta_)
 alpha_est = -beta_[1][1]

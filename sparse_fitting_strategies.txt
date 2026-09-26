@@ -1,0 +1,8 @@
+| Method                       | Sparsity mechanism                  | Typical characteristic                          |
+| ---------------------------- | ----------------------------------- | ----------------------------------------------- |
+| STLSQ                        | Hard thresholding plus refitting    | Simple, interpretable, fast                     |
+| LASSO                        | ℓ1\\ell_1ℓ1​ penalty                | Continuous shrinkage; often biased coefficients |
+| Sequential thresholded ridge | Hard thresholding plus ridge refit  | More stable with correlated columns             |
+| Elastic net                  | ℓ1+ℓ2\\ell_1+\\ell_2ℓ1​+ℓ2​ penalties | Can handle grouped/correlated features          |
+| SR3                          | Relaxed sparse regression           | Flexible thresholding and constraints           |
+| Bayesian sparse regression   | Prior-based sparsity                | Provides uncertainty information                |
